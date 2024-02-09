@@ -68,7 +68,7 @@ const Tokenomics = () => {
           </div>
           <div
             data-aos="fade-right"
-            className=" flex justify-center max-lg:mt-[20px] max-lg:border-4 max-lg:backdrop-blur-sm border-[#FBA11D]  border-dotted max-lg:p-5 mx-auto rounded-full max-lg:max-w-[500px] items-center gap-[26px] lg:absolute top-[35px] left-[1%]"
+            className=" flex justify-center max-lg:mt-[20px] max-lg:border-4 max-lg:backdrop-blur-sm border-[#FBA11D]  border-dotted max-lg:p-5 mx-auto  rounded-md max-lg:max-w-[500px] items-center gap-[26px] lg:absolute top-[35px] left-[1%]"
           >
             <div className=" max-w-[189px] text-center lg:text-end">
               <p className=" text-[#FBA11D] text-[32px] font-normal leading-[38px] font-BalsamiqSans">
@@ -82,7 +82,7 @@ const Tokenomics = () => {
           </div>
           <div
             data-aos="fade-up"
-            className=" flex justify-center max-lg:mt-[20px] max-lg:border-4 max-lg:backdrop-blur-sm border-[#23AAAC] border-dotted max-lg:p-5 mx-auto rounded-full max-lg:max-w-[500px] items-center gap-[26px] lg:absolute top-[76%] left-[11%]"
+            className=" flex justify-center max-lg:mt-[20px] max-lg:border-4 max-lg:backdrop-blur-sm border-[#23AAAC] border-dotted max-lg:p-5 mx-auto  rounded-md max-lg:max-w-[500px] items-center gap-[26px] lg:absolute top-[76%] left-[11%]"
           >
             <div className=" max-w-[203px] text-center lg:text-end">
               <p className=" text-[#23AAAC] text-[32px] font-normal leading-[38px] font-BalsamiqSans">
@@ -98,7 +98,7 @@ const Tokenomics = () => {
           </div>
           <div
             data-aos="zoom-in"
-            className=" flex flex-col max-lg:mt-[20px] max-lg:border-4 max-lg:backdrop-blur-sm border-[#D45B07] border-dotted max-lg:p-5 mx-auto rounded-full max-lg:max-w-[500px] justify-center items-center gap-[17px] lg:absolute bottom-[-41%] left-[45%]"
+            className=" flex flex-col max-lg:mt-[20px] max-lg:border-4 max-lg:backdrop-blur-sm border-[#D45B07] border-dotted max-lg:p-5 mx-auto  rounded-md max-lg:max-w-[500px] justify-center items-center gap-[17px] lg:absolute bottom-[-41%] left-[45%]"
           >
             <div className=" lg:block hidden border-r-[1.48px] border-white  w-[15px] h-[43px]  border-b-0"></div>
             <div className=" max-w-[203px] text-center lg:text-end">
@@ -109,7 +109,7 @@ const Tokenomics = () => {
           </div>
           <div
             data-aos="fade-up"
-            className=" flex flex-row-reverse max-lg:mt-[20px] max-lg:border-4 max-lg:backdrop-blur-sm border-[#FB5352] border-dotted max-lg:p-5 mx-auto rounded-full max-lg:max-w-[500px] justify-center items-center gap-[26px] lg:absolute top-[83%] right-[7%]"
+            className=" flex flex-row-reverse max-lg:mt-[20px] max-lg:border-4 max-lg:backdrop-blur-sm border-[#FB5352] border-dotted max-lg:p-5 mx-auto  rounded-md max-lg:max-w-[500px] justify-center items-center gap-[26px] lg:absolute top-[83%] right-[7%]"
           >
             <div className=" max-w-[248px] text-center lg:text-end">
               <p className=" text-[#FB5352] text-[32px] font-normal leading-[38px] font-BalsamiqSans">
@@ -120,7 +120,7 @@ const Tokenomics = () => {
           </div>
           <div
             data-aos="fade-left"
-            className=" flex flex-row-reverse max-lg:mt-[20px] max-lg:border-4 max-lg:backdrop-blur-sm border-[#5D9630] border-dotted max-lg:p-5 mx-auto rounded-full max-lg:max-w-[500px] justify-center items-center gap-[26px] lg:absolute top-[35px] right-[1%]"
+            className=" flex flex-row-reverse max-lg:mt-[20px] max-lg:border-4 max-lg:backdrop-blur-sm border-[#5D9630] border-dotted max-lg:p-5 mx-auto  rounded-md max-lg:max-w-[500px] justify-center items-center gap-[26px] lg:absolute top-[35px] right-[1%]"
           >
             <div className=" max-w-[189px] text-center lg:text-start">
               <p className=" text-[#8EC627] text-[32px] font-normal leading-[38px] font-BalsamiqSans">

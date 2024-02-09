@@ -25,7 +25,7 @@ const Utility = () => {
       <div className=" max-w-[1164px] px-3 mx-auto">
         <h2
           data-aos="fade-down"
-          className=" text-[64px] text-white text-center font-chewy leading-[83px]"
+          className=" text-[32px] sm:text-[64px] text-white text-center font-chewy leading-[43px] sm:leading-[83px]"
         >
           Utility and Usecase
         </h2>

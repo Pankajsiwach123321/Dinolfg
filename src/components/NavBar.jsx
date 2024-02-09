@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const NavBar = () => {
   const [show, setShow] = useState(true);
   const handleClick = () => {
-    setShow(!show);
+    setShow(true);
   };
   if (show === false) {
     document.body.classList.add("max-lg:overflow-hidden");
@@ -36,6 +36,7 @@ const NavBar = () => {
             >
               <li>
                 <a
+                  onClick={handleClick}
                   href="#about"
                   className="text-black  font-chewy text-[18px] font-normal leading-normal hover:after:w-[80%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#FBA11D] after:h-[4px] relative after:left-[0] after:-bottom-[2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                 >
@@ -44,6 +45,7 @@ const NavBar = () => {
               </li>
               <li>
                 <a
+                  onClick={handleClick}
                   href="#Tokenomic"
                   className="text-black  font-chewy text-[18px] font-normal leading-normal hover:after:w-[80%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#23AAAC] after:h-[4px] relative after:left-[0] after:-bottom-[2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                 >
@@ -52,6 +54,7 @@ const NavBar = () => {
               </li>
               <li>
                 <a
+                  onClick={handleClick}
                   href="#Roadmap"
                   className="text-black  font-chewy text-[18px] font-normal leading-normal hover:after:w-[80%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#D45B07] after:h-[4px] relative after:left-[0] after:-bottom-[2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                 >
@@ -60,22 +63,20 @@ const NavBar = () => {
               </li>
               <li>
                 <a
+                  onClick={handleClick}
                   href="#Faq"
                   className="text-black  font-chewy text-[18px] font-normal leading-normal hover:after:w-[80%] after:mx-auto after:right-0 after:items-center after:w-0 after:absolute after:bg-[#8EC627] after:h-[4px] relative after:left-[0] after:-bottom-[2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear"
                 >
                   FAQ
                 </a>
               </li>
-              <li className="lg:hidden flex">
-                <a
-                  href=""
-                  className="bg-joinbtn bg-full bg-no-repeat text-black  font-chewy text-[18px] font-normal leading-normal px-9 pt-[11px] pb-[20px]"
-                >
-                  Join Now
-                </a>
-              </li>
+
               <li className="gap-2 items-center sm:hidden flex">
-                <a href="https://www.twitter.com" target="_blank">
+                <a
+                  onClick={handleClick}
+                  href="https://www.twitter.com"
+                  target="_blank"
+                >
                   <svg
                     className="group hover:fill-[#23AAAC] transition-all duration-300 ease-linear"
                     width="37"
@@ -98,7 +99,11 @@ const NavBar = () => {
                     ></path>
                   </svg>
                 </a>
-                <a href="https://www.discord.com" target="_blank">
+                <a
+                  onClick={handleClick}
+                  href="https://www.discord.com"
+                  target="_blank"
+                >
                   <svg
                     className="group hover:fill-[#23AAAC] transition-all duration-300 ease-linear"
                     width="37"
@@ -123,7 +128,11 @@ const NavBar = () => {
                     ></path>
                   </svg>
                 </a>
-                <a href="https://www.instagram.com" target="_blank">
+                <a
+                  onClick={handleClick}
+                  href="https://www.instagram.com"
+                  target="_blank"
+                >
                   <svg
                     className="group hover:fill-[#D45B07] transition-all duration-300 ease-linear"
                     width="37"
@@ -147,8 +156,17 @@ const NavBar = () => {
                   </svg>
                 </a>
               </li>
+              <li className="lg:hidden flex">
+                <a
+                  onClick={handleClick}
+                  href="#"
+                  className="bg-[url(./assets/images/joinbtnbg.webp)] bg-fullsize bg-no-repeat text-black font-chewy text-[18px] font-normal leading-normal px-9 pt-[10px] pb-[17px]  hover:text-white transition-all duration-300 ease-in-out"
+                >
+                  Join Now
+                </a>
+              </li>
             </ul>
-            <div  className=" flex items-center gap-5">
+            <div className=" flex items-center gap-5">
               <ul className="gap-2 items-center sm:flex hidden">
                 <li>
                   <a href="https://www.twitter.com" target="_blank">
