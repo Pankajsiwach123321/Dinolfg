@@ -42,7 +42,7 @@ const Faq = () => {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
     <>
-      <div className="relative z-[6] bg-[#0a4740] " id="Faq">
+      <div className="relative -mt-[2px] z-[6] bg-[#0a4740] " id="Faq">
         <div className="max-w-[800px] mx-auto px-3 relative z-[1] pt-[35px] md:pt-[150px]  sm:pb-[70px] lg:pb-[100px]">
           <div className="pt-[90px] md:pt-[130px]   pb-[12px]">
             <h2

@@ -22,9 +22,15 @@ const HeaderContent = () => {
               <span className="text-[#D45B07]">N</span>
               <span className="text-[#8EC627]">O</span>
               <br className="sm:block hidden" />
-              <span className="text-[#8EC627]">L</span>
-              <span className="text-[#FCCA2B]">F</span>
-              <span className="text-[#8F78D2]">G</span>
+              <span className="text-[#8EC627] drop-shadow-[0px_2px_0px_#000] ">
+                L
+              </span>
+              <span className="text-[#FCCA2B] drop-shadow-[0px_2px_0px_#000] ">
+                F
+              </span>
+              <span className="text-[#8F78D2] drop-shadow-[0px_2px_0px_#000] ">
+                G
+              </span>
             </h1>
           </div>
         </div>

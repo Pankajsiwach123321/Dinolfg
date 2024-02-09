@@ -6,7 +6,7 @@ import utilitystandbike from "../assets/images/DinoWithCycle.webp";
 import utlititytree from "../assets/images/UtilityRightTree.webp";
 const Utility = () => {
   return (
-    <div className=" bg-[#0A4740] overflow-x-clip relative z-[1] pt-[35px] sm:pt-[100px] lg:pt-[221px] pb-[70px] sm:pb-[100px] lg:pb-[498px]">
+    <div className=" bg-[#0A4740] -mt-[2px] overflow-x-clip relative z-[1] pt-[35px] sm:pt-[100px] lg:pt-[221px] pb-[70px] sm:pb-[100px] lg:pb-[498px]">
       <img
         src={toplayerutility}
         alt="toplayerutility"
@@ -20,7 +20,7 @@ const Utility = () => {
       <img
         src={utlititytree}
         alt="utlititytree"
-        className=" absolute right-[-3%] z-[-1] max-w-[352px] max-h-[446px] bottom-[29%]"
+        className=" absolute right-[-3%] z-[-1] min-w-[352px] max-h-[446px] bottom-[31%]"
       />
       <div className=" max-w-[1164px] px-3 mx-auto">
         <h2

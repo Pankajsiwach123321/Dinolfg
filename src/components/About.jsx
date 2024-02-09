@@ -8,17 +8,17 @@ const About = () => {
       <img
         src={lefttree}
         alt="lefttree"
-        className=" absolute z-[-1] left-0 bottom-[0%] max-h-[442px]"
+        className=" absolute z-[-1] left-0 bottom-0 md:bottom-[-39%] max-h-[442px]"
       />
       <img
         src={righttree}
         alt="righttree"
-        className=" absolute z-[-1] right-0 bottom-[-6%] max-h-[446px]"
+        className=" absolute z-[-1] right-0 bottom-0 md:bottom-[-21%] max-h-[446px]"
       />
       <img
         src={dragon}
         alt="dragon"
-        className=" animate-herobounceanimnate max-sm:hidden absolute z-[-1] right-0 max-w-[169px] bottom-[-16%]"
+        className=" animate-herobounceanimnate max-sm:hidden absolute z-[-1] right-0 max-w-[169px] bottom-0 md:bottom-[-24%]"
       />
       <div className="max-w-[1164px] px-3 mx-auto pt-[35px] sm:pt-[68px]">
         <h2
@@ -42,7 +42,7 @@ const About = () => {
         </p>
         <p
           data-aos="fade-down"
-          className=" max-w-[560px] mx-auto font-BalsamiqSans text-white pt-[20px] sm:pt-[42px] font-normal text-2xl leading-[28px] text-center"
+          className=" max-w-[560px] mx-auto font-BalsamiqSans text-white pt-[18px] font-normal text-2xl leading-[28px] text-center"
         >
           Biggest problem of meme coins is lack of utility and usecase,
           <span className=" text-[#8EC627]"> $</span>

@@ -6,7 +6,10 @@ import heartman from "../assets/images/heartbike.webp";
 
 const Header = () => {
   return (
-    <div className=" z-[1] overflow-x-clip relative min-h-[720px] sm:min-h-[720px] lg:min-h-[920px] bg-[url(./assets/images/herobg.webp)] bg-cover bg-center sm:bg-fullsize bg-no-repeat w-full">
+    <div
+      id="home"
+      className=" z-[6] overflow-x-clip relative min-h-[720px] sm:min-h-[720px] lg:min-h-[920px] bg-[url(./assets/images/herobg.webp)] bg-cover bg-center sm:bg-fullsize bg-no-repeat w-full"
+    >
       <NavBar />
       <HeaderContent />
       <img
