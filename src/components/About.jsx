@@ -23,16 +23,18 @@ const About = () => {
       <div className="max-w-[1164px] px-3 mx-auto pt-[35px] sm:pt-[68px]">
         <h2
           data-aos="fade-down"
-          className="font-normal  text-center leading-[37px] drop-shadow-[0px_1.337px_0px_#000] sm:text-[64px] text-[40px]"
+          className="font-normal  text-center leading-[37px] drop-shadow-[0px_1.337px_0px_#000] sm:text-[64px] text-[39px]"
         >
-          <span className="font-chewy text-white leading-[83px]">About</span>
-          <span className="text-[#FBA11D] leading-[66px] font-lucky"> D</span>
-          <span className="text-[#23AAAC] leading-[66px] font-lucky">i</span>
-          <span className="text-[#D45B07] leading-[66px] font-lucky">n</span>
-          <span className="text-[#8EC627] leading-[66px] font-lucky">o</span>
-          <span className="text-[#FCCA2B] leading-[66px] font-lucky">L</span>
-          <span className="text-[#8F78D2] leading-[66px] font-lucky">F</span>
-          <span className="text-[#8EC627] leading-[66px] font-lucky">G</span>
+          <span className="font-chewy text-white leading-[43px] sm:leading-[83px]">
+            About
+          </span>
+          <span className="text-[#FBA11D] leading-[43px] sm:leading-[66px] font-lucky"> D</span>
+          <span className="text-[#23AAAC] leading-[43px] sm:leading-[66px] font-lucky">i</span>
+          <span className="text-[#D45B07] leading-[43px] sm:leading-[66px] font-lucky">n</span>
+          <span className="text-[#8EC627] leading-[43px] sm:leading-[66px] font-lucky">o</span>
+          <span className="text-[#FCCA2B] leading-[43px] sm:leading-[66px] font-lucky">L</span>
+          <span className="text-[#8F78D2] leading-[43px] sm:leading-[66px] font-lucky">F</span>
+          <span className="text-[#8EC627] leading-[43px] sm:leading-[66px] font-lucky">G</span>
         </h2>
         <p
           data-aos="fade-down"

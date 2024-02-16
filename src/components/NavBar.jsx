@@ -256,24 +256,24 @@ const NavBar = () => {
               </ul>
               <div
                 onClick={() => setShow(!show)}
-                className="cursor-pointer lg:hidden w-[32px] sm:h-[26px] h-[22px] relative z-50 flex justify-between flex-col"
+                className="cursor-pointer  lg:hidden w-[32px] sm:h-[26px] h-[22px] relative z-50 flex justify-between flex-col"
               >
                 <span
                   className={`${
                     show
                       ? ""
                       : " rotate-[50deg] translate-y-[16px] sm:translate-y-[20px]"
-                  } bg-[#000000] h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
+                  } bg-[#02CDCF] h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
                 ></span>
                 <span
                   className={`${
                     show ? "" : "hidden"
-                  } bg-[#000000] h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
+                  } bg-[#02CDCF] h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
                 ></span>
                 <span
                   className={`${
                     show ? "" : "rotate-[-50deg] translate-y-[-50%]"
-                  } bg-[#000000] h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
+                  } bg-[#02CDCF] h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}
                 ></span>
               </div>
             </div>

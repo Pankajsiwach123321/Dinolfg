@@ -9,7 +9,7 @@ const HeaderContent = () => {
             <img
               src={aeroplanehero}
               alt="DinowithPlan"
-              className=" animate-airopalneanimation sm:max-w-[395px] w-full max-w-[250px] plan_ani"
+              className="  sm:max-w-[395px] w-full max-w-[250px] plan_ani"
             />
           </div>
           <div

@@ -40,7 +40,7 @@ const Tokenomics = () => {
       <div className=" max-w-[1164px] mx-auto px-3 sm:pt-[100px] pt-[70px] lg:pt-[246px] pb-[35px] sm:pb-[100px] lg:pb-[428px]">
         <h2
           data-aos="fade-down"
-          className=" text-[64px] text-white text-center font-chewy leading-[83px]"
+          className=" text-[39px] sm:text-[64px] text-white text-center font-chewy leading-[43px] sm:leading-[83px]"
         >
           Tokenomics
         </h2>

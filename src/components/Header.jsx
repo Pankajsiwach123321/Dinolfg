@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import HeaderContent from "./HeaderContent";
-import standbike from "../assets/images/bikestand1.webp";
+import standbike from "../assets/images/dinostandheader.png";
 import heartman from "../assets/images/heartbike.webp";
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
       <img
         src={standbike}
         alt="standbike"
-        className=" absolute right-[39%] bottom-[18%] z-[-1] animate-movebike1"
+        className=" absolute right-[39%] max-w-[131px] bottom-[18%] z-[-1] animate-movebike1"
       />
       <img
         src={heartman}

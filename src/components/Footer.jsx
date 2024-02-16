@@ -13,7 +13,7 @@ const Footer = () => {
       <img
         src={heartman}
         alt="heartbike"
-        className=" absolute right-[8%] max-sm:h-[200px] bottom-[1%] z-[-1] animate-movebike3"
+        className=" absolute max-lg:hidden right-[8%] max-sm:h-[200px] bottom-[1%] z-[-1] animate-herobounceanimnate"
       />
       <div className=" max-w-[1164px] mx-auto px-3 pb-[35px]  sm:pb-[100px] lg:pb-[267px] pt-[35px] sm:pt-[70px] lg:pt-[149px]">
         <h2 className=" font-lucky font-normal  leading-[37px] text-center drop-shadow-[0px_1.337px_0px_#000] text-[#FBA11D] sm:text-[80px] text-[40px]">
@@ -24,11 +24,11 @@ const Footer = () => {
           <span className="text-[#8F78D2]">F</span>
           <span className="text-[#8EC627]">G</span>
         </h2>
-        <p className=" text-white max-w-[376px] mx-auto text-center font-normal leading-[16px] font-BalsamiqSans pt-[33px]">
+        <p className=" text-white max-w-[376px] mx-auto text-center font-normal leading-[16px] font-BalsamiqSans pt-4 sm:pt-[33px]">
           Sed tempus pretium est, vestibulum dapibus mauris viverra id.
           Curabitur feugiat porta lorem,{" "}
         </p>
-        <ul className=" gap-2 justify-center mt-[33px] items-center  flex">
+        <ul className=" gap-2 justify-center mt-4 sm:mt-[33px] items-center  flex">
           <li>
             <a href="https://www.twitter.com" target="_blank">
               <svg

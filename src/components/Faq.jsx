@@ -47,12 +47,12 @@ const Faq = () => {
           <div className="pt-[90px] md:pt-[130px]   pb-[12px]">
             <h2
               data-aos="fade-up"
-              className="text-[64px]  font-chewy leading-[84px] font-normal text-center mb-6 md:mb-[61px] text-white"
+              className=" text-[39px] sm:text-[64px]  font-chewy sm:leading-[83px] leading-[43px]  font-normal text-center mb-6 md:mb-[61px] text-white"
             >
               Faq
             </h2>
             <Accordion
-              className=" border-[#fff] py-3 bg-[#09655a] border mb-[26px] rounded-[40px] "
+              className=" border-[#fff] py-3 px-2 sm:px-[26px]  bg-[#09655a] border mb-[26px] rounded-[40px] "
               open={open === 1}
               icon={<OpenSign id={1} open={open} />}
             >
@@ -69,7 +69,7 @@ const Faq = () => {
               </AccordionBody>
             </Accordion>
             <Accordion
-              className=" border-[#fff] py-3 bg-[#09655a] border mb-[26px] rounded-[40px]  overflow-hidden "
+              className=" border-[#fff] py-3 px-2 sm:px-[26px] bg-[#09655a] border mb-[26px] rounded-[40px]  overflow-hidden "
               open={open === 2}
               icon={<OpenSign id={2} open={open} />}
             >
@@ -87,7 +87,7 @@ const Faq = () => {
               </AccordionBody>
             </Accordion>
             <Accordion
-              className=" border-[#80898D] py-3 bg-[#09655a] border mb-[26px] rounded-[40px] "
+              className=" border-[#80898D] py-3 px-2 sm:px-[26px] bg-[#09655a] border mb-[26px] rounded-[40px] "
               open={open === 3}
               icon={<OpenSign id={3} open={open} />}
             >
@@ -105,7 +105,7 @@ const Faq = () => {
               </AccordionBody>
             </Accordion>
             <Accordion
-              className=" border-[#fff] py-3 bg-[#09655a] border mb-[26px] rounded-[40px] "
+              className=" border-[#fff] py-3 px-2 sm:px-[26px] bg-[#09655a] border mb-[26px] rounded-[40px] "
               open={open === 4}
               icon={<OpenSign id={4} open={open} />}
             >
@@ -122,7 +122,7 @@ const Faq = () => {
               </AccordionBody>
             </Accordion>
             <Accordion
-              className=" border-[#fff] py-3 bg-[#09655a] border mb-[26px] rounded-[40px]  "
+              className=" border-[#fff] py-3 px-2 sm:px-[26px] bg-[#09655a] border mb-[26px] rounded-[40px]  "
               open={open === 5}
               icon={<OpenSign id={5} open={open} />}
             >
